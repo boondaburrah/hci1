@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>330</width>
+    <height>339</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>70</y>
+      <width>161</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Extras</string>
+    </property>
+    <widget class="QCheckBox" name="checkGarlic">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>85</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Garlic</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkVeg">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>101</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Vegetables</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkNoodle">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>141</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Extra Noodles</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="labelStoreName">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="oicon.qrc">:/res/pz-art.gif</pixmap>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboDrink">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>200</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Tea</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Black Tea</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Soda</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Water</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="labelDrink">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>180</y>
+      <width>59</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Drink</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineName">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>250</y>
+      <width>291</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelName">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>230</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Name on order</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonOrder">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>280</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Order</string>
+    </property>
+    <property name="icon">
+     <iconset resource="oicon.qrc">
+      <normaloff>:/res/shoe-arrow-icon-icon.png</normaloff>:/res/shoe-arrow-icon-icon.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonCancel">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>280</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cancel</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>120</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Food</string>
+    </property>
+    <widget class="QRadioButton" name="radioPork">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>102</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>Take-Out only.</string>
+     </property>
+     <property name="text">
+      <string>Pork</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioRamen">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>102</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Ramen</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButa">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>102</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Butamen</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>330</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionOrder_History"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <addaction name="menuFile"/>
+  </widget>
+  <action name="actionOrder_History">
+   <property name="text">
+    <string>Order History</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="oicon.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>radioPork</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>checkVeg</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>80</x>
+     <y>128</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>210</x>
+     <y>108</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioPork</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>checkGarlic</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>80</x>
+     <y>128</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>202</x>
+     <y>88</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioPork</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>checkNoodle</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>80</x>
+     <y>128</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>202</x>
+     <y>128</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonCancel</sender>
+   <signal>clicked()</signal>
+   <receiver>actionQuit</receiver>
+   <slot>trigger()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>180</x>
+     <y>269</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioPork</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>comboDrink</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>80</x>
+     <y>128</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>80</x>
+     <y>189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionQuit</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>164</x>
+     <y>156</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

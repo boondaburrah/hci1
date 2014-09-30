@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>pz-art.gif</file>
+        <file>shoe-arrow-icon-icon.png</file>
+    </qresource>
+</RCC>
